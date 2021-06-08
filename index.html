@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        ToshTest
+    </title>
+    <meta name="description" content="RadioCom website">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:image" content="images/dist/preview.jpg">
+    <link rel="preload" href="css/main.min.css" as="style">
+    <link rel="preload" href="js/app.min.js" as="script">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__wrapper">
+            <a href="/" class="logo">
+                <img src="./images/logo-white.png" alt="Logo">
+            </a>
+            <nav class="header__nav">
+               <a href="/" class="logo">
+                <img src="./images/logo-white.png" alt="Logo">
+            </a>
+                <ul class="header__menu">
+                    <li><a href="#hero" class="active">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href=".#services">Услуги</a></li>
+                    <li><a href="#works">Наши работы</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+                <ul class="header__lang mobile">
+                    <li><a href="#" class="active">Ru</a></li>
+                    <li><a href="#">Uz</a></li>
+                </ul>
+                <a href="tel:+998981278717" class="header__phone mobile">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.45515 11.4667C9.61486 12.6431 11.0181 13.5514 12.5663 14.1278L14.6607 12.4611C14.7228 12.4183 14.7964 12.3955 14.8718 12.3955C14.9472 12.3955 15.0208 12.4183 15.0829 12.4611L18.9718 14.9667C19.1195 15.0554 19.2444 15.1773 19.3369 15.3227C19.4293 15.468 19.4867 15.6329 19.5045 15.8042C19.5223 15.9756 19.5 16.1487 19.4393 16.31C19.3787 16.4712 19.2814 16.6161 19.1551 16.7333L17.3329 18.5333C17.072 18.7912 16.7512 18.9804 16.3993 19.0841C16.0474 19.1879 15.6754 19.2029 15.3163 19.1278C11.7342 18.388 8.43244 16.6553 5.78848 14.1278C3.20319 11.5751 1.41419 8.32714 0.638479 4.77778C0.561849 4.42424 0.577843 4.05691 0.68491 3.71137C0.791978 3.36584 0.986488 3.05382 1.24959 2.80556L3.13848 0.983333C3.25537 0.863215 3.39792 0.771097 3.55545 0.713877C3.71298 0.656656 3.88142 0.635816 4.04815 0.652916C4.21488 0.670017 4.37558 0.724615 4.51822 0.812622C4.66086 0.90063 4.78174 1.01977 4.87181 1.16111L7.4607 5C7.50536 5.06028 7.52946 5.13332 7.52946 5.20833C7.52946 5.28335 7.50536 5.35639 7.4607 5.41667L5.75515 7.46667C6.34714 8.98386 7.26944 10.3502 8.45515 11.4667Z" fill="white" />
+                    </svg>
+                    (71) 200-00-00
+                </a>
+            </nav>
+            <div class="header__right">
+                <a href="tel:+998981278717" class="header__phone">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.45515 11.4667C9.61486 12.6431 11.0181 13.5514 12.5663 14.1278L14.6607 12.4611C14.7228 12.4183 14.7964 12.3955 14.8718 12.3955C14.9472 12.3955 15.0208 12.4183 15.0829 12.4611L18.9718 14.9667C19.1195 15.0554 19.2444 15.1773 19.3369 15.3227C19.4293 15.468 19.4867 15.6329 19.5045 15.8042C19.5223 15.9756 19.5 16.1487 19.4393 16.31C19.3787 16.4712 19.2814 16.6161 19.1551 16.7333L17.3329 18.5333C17.072 18.7912 16.7512 18.9804 16.3993 19.0841C16.0474 19.1879 15.6754 19.2029 15.3163 19.1278C11.7342 18.388 8.43244 16.6553 5.78848 14.1278C3.20319 11.5751 1.41419 8.32714 0.638479 4.77778C0.561849 4.42424 0.577843 4.05691 0.68491 3.71137C0.791978 3.36584 0.986488 3.05382 1.24959 2.80556L3.13848 0.983333C3.25537 0.863215 3.39792 0.771097 3.55545 0.713877C3.71298 0.656656 3.88142 0.635816 4.04815 0.652916C4.21488 0.670017 4.37558 0.724615 4.51822 0.812622C4.66086 0.90063 4.78174 1.01977 4.87181 1.16111L7.4607 5C7.50536 5.06028 7.52946 5.13332 7.52946 5.20833C7.52946 5.28335 7.50536 5.35639 7.4607 5.41667L5.75515 7.46667C6.34714 8.98386 7.26944 10.3502 8.45515 11.4667Z" fill="white" />
+                    </svg>
+                    (71) 200-00-00
+                </a>
+                <ul class="header__lang">
+                    <li><a href="#" class="active">Ru</a></li>
+                    <li><a href="#">Uz</a></li>
+                </ul>
+            </div>
+            <div class="burger mobile">
+                <input type="checkbox" id="burgerBtn" class="burger-checkbox">
+                <label for="burgerBtn">
+                    <div class="hamburger">
+                        <span class="bar bar1"></span>
+                        <span class="bar bar2"></span>
+                        <span class="bar bar3"></span>
+                        <span class="bar bar4"></span>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="hero" id="hero" style="background-image: url('./images/hero-bg.jpg')">
+    <div class="container">
+        <div class="hero__content">
+            <h1>НАШИ САЙТЫ ЗАСТАВЛЯЮТ РАБОТАТЬ ВАШ БИЗНЕС.</h1>
+            <p>Большинство веб-студий считают окончанием работы загрузку
+                сайта в интернет. Но почти никто не умеет делать проекты,
+                которые работают и приносят прибыль.</p>
+            <ul class="hero__features">
+                <li>
+                    <img src="./images/icons/star.png" alt="icon">
+                    <h2 class="number-rollup" data-number-rollup-start="0" data-number-rollup-end="518" data-number-rollup-duration="400"></h2>
+                    <p>оказанных услуг</p>
+                </li>
+                <li>
+                    <img src="./images/icons/checklist.png" alt="icon">
+                    <h2 class="number-rollup" data-number-rollup-start="0" data-number-rollup-end="345" data-number-rollup-duration="400"></h2>
+                    <p>проектов</p>
+                </li>
+                <li>
+                    <img src="./images/icons/diamond.png" alt="icon">
+                    <h2 class="number-rollup" data-number-rollup-start="0" data-number-rollup-end="218" data-number-rollup-duration="400"></h2>
+                    <p>постоянных клиентов</p>
+                </li>
+            </ul>
+        </div>
+        <div class="hero__bottom">
+            <div class="social">
+                <li class="social__item"><a href="#" class="social__link" aria-label="facebook"><img src="./images/icons/facebook.svg" alt="social"></a></li>
+                <li class="social__item"><a href="#" class="social__link" aria-label="instagram"><img src="./images/icons/instagram.svg" alt="social"></a></li>
+                <li class="social__item"><a href="#" class="social__link" aria-label="telegram"><img src="./images/icons/telegram.svg" alt="social"></a></li>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="tradein">
+    <div class="container">
+        <h2 class="title">TRADE-IN</h2>
+        <div class="tradein__wrapper">
+            <div class="tradein__item wow animate__fadeIn" data-wow-delay="0.1s">
+                <p class="tradein__title">
+                    <span class="tradein__icon"><img src="./images/icons/tradein-1.png" alt="icon"></span>
+                    ПРОГРАММА
+                </p>
+                <p class="tradein__text">Если Вы решили обновить свой сайт или интернет-магазин, то программа трейд-ин именно то, что Вам нужно.Благодаря данной программе, Вы сможете приобрести новый сайт с минимальными вложениями, при этом утилизировав старый. Вам лишь нужно связаться с нашим отделом трейд-ин по телефону 8 (499) 390 6083, отправить письмо на адрес www@trofimov.org, либо разместить заявку на сайте.</p>
+            </div>
+            <div class="tradein__item wow animate__fadeIn" data-wow-delay="0.3s">
+                <p class="tradein__title">
+                    <span class="tradein__icon"><img src="./images/icons/tradein-2.png" alt="icon"></span>
+                    ПРОЦЕСС РАБОТЫ
+                </p>
+                <p class="tradein__text">Мы делаем предварительную оценку, параллельно, с Вами согласовываем веб интерфейс и систему управления, и если Вас все устраивает, заключаем договор. При этом Вам не придется останавливать работу в интернете, так как передача Вашего сайта осуществляется только после разработки нового. Тем самым Вы экономите не только время, но и деньги.</p>
+            </div>
+            <div class="tradein__item wow animate__fadeIn" data-wow-delay="0.5s">
+                <p class="tradein__title">
+                    <span class="tradein__icon"><img src="./images/icons/tradein-3.png" alt="icon"></span>
+                    УСЛОВИЯ
+                </p>
+                <p class="tradein__text">Вам нужно предоставить максимум информации о предоставляемом интернет-проекте, которое
+                    Вы хотите обновить.Данная информация поможет нам в кратчайшие сроки рассмотреть Ваш запрос и дать положительный ответ. Для этого, убедительно просим Вас, присылать информацию на Вашем фирменном бланке с печатью, а так же фотографии домена и хостинга.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="careful">
+    <div class="container">
+
+        <div class="careful__wrapper">
+            <div class="careful__left wow animate__fadeInLeft" data-wow-delay="0.5s">
+                <div class="title__wrapper">
+                    <h2 class="title--big">BE CAREFUL</h2>
+                    <h3 class="title">ЗАБОТА О КАЖДОМ</h3>
+                </div>
+                <p>Рожденный в нашей студии проект обречен
+                    на пожизненную поддержку. Мы обучим вас
+                    ведению сайта, обновим контент и настроим
+                    продвижение в любой момент. Каждая деталь
+                    вашего бизнеса является состовляющим звеном
+                    нашей студии. И мы позаботимся о вас.</p>
+            </div>
+            <img src="./images/careful.png" alt="careful" class="wow animate__fadeInRight" data-wow-delay="0.5s">
+        </div>
+    </div>
+</section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <h2 class="title"><span>СВЯЖИТЕСЬ С НАМИ</span></h2>
+        <div class="footer__top">
+           
+            <div class="footer__right">
+                <h3 class="footer__subtitle">Звоните нам</h3>
+                <div class="footer__info">
+                    <ul class="footer__list">
+                        <li><img src="./images/icons/mobile.svg" alt="mobile"><a href="tel:+(71) 200-00-00">(71) 200-00-00</a></li>
+                        <li><img src="./images/icons/email.svg" alt="email"><a href="mailto:iinfo@toshtest.uz">info@toshtest.uz</a></li>
+                        <li><img src="./images/icons/telegram-2.svg" alt="telegram"><a href="@toshtestuz">@toshtestuz</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li><img src="./images/icons/calendar-1.svg" alt="calendar">Рабочие дни: Пн - Пт</li>
+                        <li><img src="./images/icons/calendar-2.svg" alt="calendar 2">Выходные: Сб - Вс</li>
+                        <li><img src="./images/icons/clock.svg" alt="clock">c 10:00 до 19:00</li>
+                    </ul>
+                </div>
+                <h3 class="footer__subtitle">Пишите нам</h3>
+                <form class="footer__form">
+                    <label for="name" class="footer__label">
+                        <input type="text" id="name" name="name" class="footer__field" placeholder="Имя*" required>
+                    </label>
+                    <label for="email" class="footer__label">
+                        <input type="email" id="email" name="email" class="footer__field" placeholder="Номер телефона*" required>
+                    </label>
+                    <label for="message" class="footer__label">
+                        <input type="text" id="message" name="message" class="footer__field" placeholder="Напишите что хотите купить" required>
+                    </label>
+                    <input type="submit" class="btn" value="Отправить">
+                </form>
+            </div>
+            <div class="footer__left">
+                <div class="map" id="map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8f22de1beaf22412eafa95a3a57d7c4de57b46c6f3d77cbada2d4a53553ab7f5&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <p class="footer__copyright">
+                All right reserved &copy; toshtest.uz 2021
+            </p>
+
+        </div>
+    </div>
+
+</footer>
+<div class="modal" id="buyModal">
+    <button class="modal__close" type="button" aria-label="close modal">
+        <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3.31299" width="46.8537" height="4.68537" transform="rotate(45 3.31299 0)" fill="#1A1A18" />
+            <rect width="46.8537" height="4.68537" transform="matrix(-0.707107 0.707107 0.707107 0.707107 33.7681 0)" fill="#1A1A18" />
+        </svg>
+
+    </button>
+    <div class="modal__wrapper">
+        <div class="modal__top">
+            <div class="modal__content">
+                <p class="modal__img">
+                    <img src="./images/no-image.png" alt="image">
+                </p>
+                <div class="modal__info">
+                    <h2 class="modal__title">Motorola Talkabout T42</h2>
+                    <p>Производитель: <span>Motorola</span></p>
+                    <p>Код товара: <span>Motorola Talkabout T42</span></p>
+                    <p>Доступность: <span>На складе</span></p>
+                    <p class="modal__price">Цена: 500 000 сум</p>
+                </div>
+            </div>
+            <div class="modal__content-bottom">
+                <p class="modal__paymethods-title">Оплатить онлайн</p>
+                <ul class="modal__paymethods">
+                    <li><a href="#"><img src="./images/payme.png" alt="payme"></a></li>
+                    <li><a href="#"><img src="./images/click.png" alt="click"></a></li>
+                </ul>
+            </div>
+        </div>
+        <form class="modal__form">
+            <p class="modal__text">Оставьте заявку, с вами свяжутся</p>
+            <label for="modalname" class="modal__form-label">
+                <input type="text" id="modalname" name="name" class="modal__form-field" placeholder="Имя*" required>
+            </label>
+            <label for="modalphone" class="modal__form-label">
+
+                <input type="text" id="modalphone" name="phone" class="modal__form-field phone" placeholder="Номер телефона*" required>
+            </label>
+            <input type="submit" class="btn" value="Отправить">
+        </form>
+    </div>
+</div>
+<div class="backdrop"></div>
+<script src="js/app.min.js"></script>
+
+</body>
+
+</html>
